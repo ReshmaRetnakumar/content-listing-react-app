@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.a88ee27b.css","mappings":"AACA,KAGE,wBAAyB,CADzB,oCAAwC,CADxC,QAGF","sources":["index.css"],"sourcesContent":["/* index.css */\nbody {\n  margin: 0;\n  font-family: 'Titillium Web', sans-serif;\n  background-color: #171717;\n}\n"],"names":[],"sourceRoot":""}
