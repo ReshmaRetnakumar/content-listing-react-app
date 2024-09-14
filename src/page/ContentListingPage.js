@@ -6,7 +6,6 @@ import styled from 'styled-components';
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: #171717;
   overflow-y: auto;
 `;
 

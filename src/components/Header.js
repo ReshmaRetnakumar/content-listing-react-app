@@ -17,12 +17,20 @@ const HeaderContainer = styled.div`
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better visibility */
 `;
 
+const TitleContainer = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
 // Styled component for the header title
 const Title = styled.h1`
-  font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.8);
   margin: 0;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin-left: 15px;
 `;
 
 // Styled component for the icons
@@ -36,8 +44,10 @@ const Icon = styled.img`
 const Header = () => {
   return (
     <HeaderContainer>
-      <Icon src="https://test.create.diagnal.com/images/Back.png" alt="Back" />
-      <Title>Romantic Comedy</Title>
+      <TitleContainer>
+        <Icon src="https://test.create.diagnal.com/images/Back.png" alt="Back" />
+        <Title>Romantic Comedy</Title>
+      </TitleContainer>
       <Icon src="https://test.create.diagnal.com/images/search.png" alt="Search" />
     </HeaderContainer>
   );

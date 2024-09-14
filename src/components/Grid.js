@@ -7,8 +7,11 @@ import styled from 'styled-components';
 const GridContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
-  background-color: #171717;
   overflow-y: auto;
+  margin-block: 20px;
+  row-gap: 40px;
+  column-gap: 15px;
+  justify-content: center;
 
   /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
   &::-webkit-scrollbar {
